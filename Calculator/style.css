@@ -1,0 +1,77 @@
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+body {
+    background: aquamarine;
+}
+
+button{
+    width: 60px;
+    height: 48px;
+    border: 2px solid black;
+    background-color: #827397;
+    color: #EEEEEE;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 2px 2px black;
+}
+
+button:hover {
+    background-color: black;
+    cursor: grab;
+}
+
+.cal {
+    border: 3px solid #363062;
+    border-radius: 20px;
+    background-color: #363062;
+    padding: 10px;
+    display: inline-block;
+    margin: 60px;
+    box-shadow: 7px 10px #947EC3;
+}
+
+input {
+    font-size:35px;
+    width: 310px;
+    height: 40px;
+    padding: 5px;
+    border: 3px solid #EEEEEE;
+    border-radius: 13px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px #827397;
+    background-color: #F7E9D7;
+    box-shadow: inset 8px 8px 19px rgb(37, 36, 36); */
+}
+
+table {
+    margin: auto;
+}
+
+#ac {
+    background-color: #F55353;
+}
+
+#c {
+    background-color: #F1D00A;
+}
+
+#eq {
+    background-color:green;
+    position: absolute;
+    top: 401px;
+    left: 50%;
+    width: 129px;
+    border-radius: 10px;
+}
+
+#ac:hover,#c:hover,#eq:hover{
+    background-color: transparent;
+}
